@@ -1,0 +1,23 @@
+{
+  "description":
+    "A task that contains two independent sub tasks",
+
+  "tasks":
+  [
+    {
+      "id": 1,
+      "summary": "Do Laundry"
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "summary": "Fill the laundry machine"
+    },
+    {
+      "id": 3,
+      "parent": 1,
+      "dependsOn": [2],
+      "summary": "Hang the laundry out to dry"
+    }
+  ]
+}

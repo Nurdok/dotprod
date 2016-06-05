@@ -1,4 +1,7 @@
 {
+  "description":
+    "A minimal example of a single task.",
+
   "tasks":
   [
     {

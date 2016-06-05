@@ -1,0 +1,22 @@
+{
+  "description":
+    "A task that contains two sub tasks that depend on each other",
+
+  "tasks":
+  [
+    {
+      "id": 1,
+      "summary": "Organize a wedding"
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "summary": "Call the D.J."
+    },
+    {
+      "id": 3,
+      "parent": 1,
+      "summary": "Call the photographer"
+    }
+  ]
+}

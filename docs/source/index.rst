@@ -6,8 +6,14 @@
 Welcome to Personal Productivity File Format's documentation!
 =============================================================
 
+Examples:
+
+.. literalinclude:: examples/positive/minimal_task.prod
+   :language: json
+
 Contents:
 
+..
 .. toctree::
    :maxdepth: 2
 
