@@ -20,7 +20,7 @@ def generate_docs(example_path):
         example_json = json.load(example_file)
 
     content = example_file_content.format(example=example_json,
-                                          path=example_path)
+                                          path=example_path.name)
     dest_rst = example_path.parent / '{}.rst'.format(example_path.stem)
 
     with dest_rst.open('wt') as rst_file:
