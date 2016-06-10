@@ -5,6 +5,10 @@
 
 Dotprod (.prod) - Personal Productivity File Format
 ===================================================
+.. warning::
+
+    Dotprod is still a work in progress. In this stage, backwards compatability
+    is not guaranteed and versioning in not maintained.
 
 Dotprod is a personal productivity file format. Dotprod is based on JSON and is
 meant to be a generic and standardized way to represent personal productivity
