@@ -288,9 +288,11 @@ texinfo_documents = [
 
 import sys
 import pathlib
-from docs.source.examples import generate_docs
 
 this_dir = pathlib.Path(__file__).parent
-sys.path.insert(0, this_dir)
+sys.path.insert(0, str(this_dir))
+
+from examples import generate_docs
+
 example_dir = this_dir / 'examples'
 generate_docs.generate_docs_for_dir(example_dir / 'positive')
