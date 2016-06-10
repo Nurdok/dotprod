@@ -32,8 +32,18 @@ Contents:
 
 ..
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
+   :glob:
 
-   examples/index.rst
+   examples
+
+
+Indices and tables
+==================
+
+ * :ref:`genindex`
+ * :ref:`modindex`
+ * :ref:`search`
+
 
 
