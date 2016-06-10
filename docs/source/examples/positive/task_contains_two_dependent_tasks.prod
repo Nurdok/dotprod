@@ -1,6 +1,7 @@
 {
+  "title": "Dependent Subtasks",
   "description":
-    "A task that contains two independent sub tasks",
+    "A task that contains two subtasks that depend on each other",
 
   "tasks":
   [

@@ -284,3 +284,10 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+
+
+import pathlib
+from docs.source.examples import generate_docs
+
+example_dir = pathlib.Path(__file__).parent / 'examples'
+generate_docs.generate_docs_for_dir(example_dir / 'positive')

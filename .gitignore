@@ -63,3 +63,6 @@ target/
 
 # PyCharm
 .idea
+
+# Generated rst
+docs/source/examples/**/*.rst
