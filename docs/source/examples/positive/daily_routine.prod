@@ -1,0 +1,30 @@
+{
+  "title": "Daily Routine",
+  "description":
+    "A routine that is repeated once a day",
+
+  "tasks":
+  [
+    {
+      "id": 1,
+      "summary": "Take out the trash"
+    }
+  ],
+
+  "routines":
+  [
+    {
+      "id": 1,
+      "summary": "Take out the trash",
+      "frequency":
+      {
+        "units": "day",
+        "interval": 1
+      },
+      "timeOfDay": {
+        "hour": 20
+      }
+    }
+
+  ]
+}

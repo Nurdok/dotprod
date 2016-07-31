@@ -1,0 +1,25 @@
+{
+  "title": "Routine without Frequency",
+  "description":
+    "A routine that is missing a frequency attribute",
+
+  "tasks":
+  [
+    {
+      "id": 1,
+      "summary": "Take out the trash"
+    }
+  ],
+
+  "routines":
+  [
+    {
+      "id": 1,
+      "summary": "Take out the trash",
+      "timeOfDay": {
+        "hour": 20
+      }
+    }
+
+  ]
+}
